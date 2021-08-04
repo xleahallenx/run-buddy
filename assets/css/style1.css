@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* why won't this stupid thing work?! */
+    font-family: Helvetica, Arial, sans-serif; 
+    color: #39a6b2;
+    
+
+}
+/* apply styles to <header> */
+header {
+    padding: 20 px 35 px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36 px;
+    color: #fce138;
+    margin: 0;
+
+}
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+    
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30 px;
+    font-weight: lighter;
+    font-size: 22 px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36 px;
+    color: #fce138;
+    margin: 0;
+    display: inline; 
+}
