@@ -2,15 +2,17 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     /* why won't this stupid thing work?! */
-    font-family: Helvetica, Arial, sans-serif; 
-    color: #39a6b2;
+   color: #39a6b2;
+   font-family: Helvetica, Arial, sans-serif;
     
 
 }
+
 /* apply styles to <header> */
 header {
     padding: 20 px 35 px;
@@ -22,6 +24,7 @@ header h1 {
     font-size: 36 px;
     color: #fce138;
     margin: 0;
+    display: inline;
 
 }
 
@@ -53,4 +56,25 @@ header h1 {
     color: #fce138;
     margin: 0;
     display: inline; 
+}
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40 px 35 px;
+}
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30 px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: #024e76;
+
 }
